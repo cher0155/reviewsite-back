@@ -379,6 +379,7 @@ export interface ApiReviewReview extends Schema.CollectionType {
     description: Attribute.Text & Attribute.Required;
     image: Attribute.Media<'images'> & Attribute.Required;
     releasedate: Attribute.Date & Attribute.Required;
+    movieReview: Attribute.Text & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
